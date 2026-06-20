@@ -1,0 +1,20 @@
+{
+  "name": "act2-b3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/principal.js",
+  "scripts": {
+    "start": "ts-node src/principal.ts",
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
